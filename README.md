@@ -22,18 +22,25 @@ git clone https://github.com/333badi/Floyds_algorithms.git
 ### **Running the Scripts**
 
 
-# Run the iterative Floyd-Warshall implementation
+```sh
+# Run the iterative Floyd algorithms
 python -m iterative.iterative_floyd
+```
 
-# Run the recursive Floyd-Warshall implementation
+```sh
+# Run the recursive Floyd algorithms
 python -m recursion.recursive_floyd
+```
 
+```sh
 # Run the performance benchmarking script
 python -m tests.performance_test
+```
 
+```sh
 # Run the unit tests to verify correctness
 python -m tests.unittests
-
+```
 
 ### **Requirements**
 
