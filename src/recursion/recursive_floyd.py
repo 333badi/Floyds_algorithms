@@ -10,7 +10,6 @@ The global variables are:
     GRAPH = Contains the distances for the graph. Node names are inferred by the position
     of the node, i.e. position  0 0 in the list is node 0
     MAX_LENGTH = The size of the graph
-    MIN_LEVEL = The lowest search level for the shortest path calculation
     NO_PATH_MARKER = Holder for no path possible. This is used for the printing function. 
 """
 from sys import maxsize
@@ -22,7 +21,6 @@ GRAPH = [[0,   7,  NO_PATH, 8],
          [NO_PATH, NO_PATH, NO_PATH, 0]]
 
 MAX_LENGTH = len(GRAPH[0])
-MIN_LEVEL = 0
 NO_PATH_MARKER = "No Path"
 
 def main():
@@ -31,7 +29,6 @@ def main():
     """
     recursive_floyd(0, 0, 0)  # Start recursion from (0, 0, 0)
 
-    # Uncomment next line when you have completed the task
     print_out_graph()
 
 def print_out_graph():

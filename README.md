@@ -21,6 +21,10 @@ git clone https://github.com/333badi/Floyds_algorithms.git
 
 ### **Running the Scripts**
 
+```sh
+# access the src directory to run the code
+cd src
+```
 
 ```sh
 # Run the iterative Floyd algorithms
