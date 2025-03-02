@@ -27,6 +27,7 @@ cd Floyds_algorithms\src
 ```sh
 # All requirements are listed in the requirements.txt file. 
 
+# crate a virtual environment, activate it, and install all dependencies from the requirements.txt to run the code
 python -m venv venv
 
 venv\Scripts\activate #windows
