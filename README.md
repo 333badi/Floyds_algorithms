@@ -44,6 +44,12 @@ python -m tests.unittests
 
 ### **Requirements**
 
-This project only uses python's built in libraries so not requiremet.txt file or a venv is needed.
+```sh
+# All requirements are listed in the requirements.txt file. 
 
+python -m venv venv
 
+venv\Scripts\activate #windows
+
+pip install -r requirements.txt
+```
