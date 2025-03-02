@@ -1,37 +1,26 @@
-# Floyd-Warshall Algorithm - README
+# Floyds Algorithm - README
 
 ## **What is this repository for?**  
 
-This repository contains an implementation of the **Floyd-Warshall Algorithm**, used for finding the shortest paths in a weighted graph. It includes:  
+This repository contains an implementation of the **Floyds Algorithm**, used for finding the shortest paths in a weighted graph. It includes:  
 
-- **Iterative Floyd-Warshall Implementation**  
-- **Recursive Floyd-Warshall Implementation**  
-- **Unit tests to verify correctness**  
+- **Iterative Floyd Imlementation**  
+- **Recursive Floyd Implementation**  
+- **Unit tests to verify functionalities**  
 - **Performance benchmarking scripts**  
 
 ---
 
 ## **How do I get set up?**  
 
-### **1️⃣ Clone the Repository**  
+### **Clone the Repository**  
 ```sh
-git clone https://github.com/your-username/floyd-warshall.git
-cd floyd-warshall/src
----
-
-It is best practice to create a virtual environment to store the dependencies for your project. This prevents issues such as deprecation, which can break your code. However, as all imports used in this code come from the Python built-in library, this is not necessary.
-
-creating a virtual environment using the requirements.txt file
-
-python -m venv venv
-source venv/bin/activate  # On macOS/Linux
-venv\Scripts\activate  # On Windows 
-
-# Install dependencies from requirements.txt
-### **Running the Scripts** ###
+git clone https://github.com/333badi/Floyds_algorithms.git
+```
 
 
-## Running the scripts ##
+### **Running the Scripts**
+
 
 # Run the iterative Floyd-Warshall implementation
 python -m iterative.iterative_floyd
@@ -46,7 +35,8 @@ python -m tests.performance_test
 python -m tests.unittests
 
 
-### Requirements ### 
+### **Requirements**
 
+This project only uses python's built in libraries so not requiremet.txt file or a venv is needed.
 
 
