@@ -6,8 +6,8 @@ This repository contains an implementation of the **Floyds Algorithm**, used for
 
 - **Iterative Floyd Imlementation**  
 - **Recursive Floyd Implementation**  
-- **Unit tests to verify functionalities**  
-- **Performance benchmarking scripts**  
+- **Unit and performance tests to verify functionalities**  
+- **Visualisation for the problem**  
 
 ---
 
