@@ -16,15 +16,25 @@ This repository contains an implementation of the **Floyds Algorithm**, used for
 ### **Clone the Repository**  
 ```sh
 git clone https://github.com/333badi/Floyds_algorithms.git
+
+# access the src directory inside the project folder to run the code
+
+cd Floyds_algorithms\src
 ```
 
-
-### **Running the Scripts**
+### **Requirements**
 
 ```sh
-# access the src directory to run the code
-cd src
+# All requirements are listed in the requirements.txt file. 
+
+python -m venv venv
+
+venv\Scripts\activate #windows
+
+pip install -r requirements.txt
 ```
+
+### **Running the Scripts**
 
 ```sh
 # Run the iterative Floyd algorithms
@@ -46,14 +56,3 @@ python -m tests.performance_test
 python -m tests.unittests
 ```
 
-### **Requirements**
-
-```sh
-# All requirements are listed in the requirements.txt file. 
-
-python -m venv venv
-
-venv\Scripts\activate #windows
-
-pip install -r requirements.txt
-```
