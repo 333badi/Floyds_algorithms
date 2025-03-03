@@ -1,4 +1,3 @@
-import sys
 from time import perf_counter
 import gc
 from recursion.recursive_floyd import recursive_floyd
